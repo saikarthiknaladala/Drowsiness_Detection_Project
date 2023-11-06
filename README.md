@@ -36,7 +36,7 @@ Our Custom ConvNEt : 92.24%
 
 Although fine-tuned ResNet50 improved validation accuracy on our dataset, our custom ConvNet still stands as the best performance model.
 
-We test the model on test data too. We used confusion matrix too, for evaluating the performance of a machine learning classification model. We got an accuracy of 90.69 & 90.65 for CNN and ResNet50_fine_tuning. Both are almost equal. We used here ResNet50 Fine Tuning here. 
+We test the model on test data too. We used confusion matrix, for evaluating the performance of a machine learning classification model. We got an accuracy of 90.69 & 90.65 for CNN and ResNet50_fine_tuning. Both are almost equal. We used here ResNet50 Fine Tuning here. 
 
 ## CNN:
 
