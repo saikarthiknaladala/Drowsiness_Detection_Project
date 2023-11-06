@@ -20,6 +20,14 @@ Dataset has been already balanced,i.e both categories have same number of images
 
 Key metric to consider model performance -> val_categorical_accuracy
 
+ResNet50 Transfer learning ( Baseline ) : 89.91%
+ResNet50 Transfer learning + Regularization : 90.29%
+ResNet50 Fine Tuning : 94.25%
+Our Custom ConvNEt : 92.24%
+Although fine-tuned ResNet50 improved validation accuracy on our dataset, our custom ConvNet still stands as the best performance model.
+
+We test the model on test data too. We used confusion matrix too, for evaluating the performance of a machine learning classification model. We got an accuracy of 90.69 & 90.65 for CNN and ResNet50_fine_tuning. Both are almost equal. We used here ResNet50 Fine Tuning here. 
+
 ## CNN:
 
 ![CNN_Image](https://github.com/saikarthiknaladala/Drowsiness_Detection_Project/assets/144606889/f348c8e4-a033-4977-b984-b04ff4b169be)
@@ -28,15 +36,26 @@ Key metric to consider model performance -> val_categorical_accuracy
 
 ![CNN_CM](https://github.com/saikarthiknaladala/Drowsiness_Detection_Project/assets/144606889/8f075d85-32f4-47c3-acf9-16019c449cc2)
 
-## ResNet50:
+## ResNet50 Transfer Learning:
+Transfer learning means to apply the knowledge that some machine learning model holds (represented by its learned parameters) to a new (but in some way related) task.
 
 ![ResNet50](https://github.com/saikarthiknaladala/Drowsiness_Detection_Project/assets/144606889/ffeb8b4c-0ed3-4973-9fc5-bd2a4b9d7207)
 
-## ResNet50+Regularization:
+## ResNet50 Transfer Learning + Regularization:
+Regularization was added because transfer learning model seems to be overfit. Overfit happens when the model learnt only "training data" by heart.To fix it we have following options:
+                              1. Reduce network complexity
+                              2. Use drop out ( more dropout in last layers)
+                              3. Regularise
+                              4. Use batch norms
+                              5. Increase the tranning dataset size.
+For our case, I added a dropout layer with the rate 0.5 ( 50% of learning weights will be cut off randomly ! )
 
 ![ResNet50Reg](https://github.com/saikarthiknaladala/Drowsiness_Detection_Project/assets/144606889/2b6cf04d-d7ff-42fb-ac73-79e7769c5df4)
 
-## ResNet50+Fine_Tuning:
+## ResNet50 Fine Tuning:
+Try Fine-tuning when your transfer learning model is still needed to improve.
+
+Fine-tuning is the process of retraining a pre-trained model on a new dataset. 
 
 ![ResNetFineTuning](https://github.com/saikarthiknaladala/Drowsiness_Detection_Project/assets/144606889/a7fb5ea3-f81c-4e43-904a-6f3543c32397)
 
