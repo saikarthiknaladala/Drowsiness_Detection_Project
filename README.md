@@ -45,7 +45,7 @@ We test the model on test data too. We used confusion matrix, for evaluating the
 
 ### Confusion Matrix
 
-![CNN](https://github.com/saikarthiknaladala/Drowsiness_Detection_Project/assets/144606889/7b602568-06d9-4268-a9be-c9659c20408a)
+![CNN](https://github.com/saikarthiknaladala/Drowsiness_Detection_Project/assets/144606889/b08da0d1-c2f4-433c-b0d7-9139f21b414c)
 
 ## ResNet50 Transfer Learning:
 Transfer learning means to apply the knowledge that some machine learning model holds (represented by its learned parameters) to a new (but in some way related) task.
