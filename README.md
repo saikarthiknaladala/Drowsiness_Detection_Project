@@ -23,21 +23,15 @@ Key metric to consider model performance -> val_categorical_accuracy
 For CNN:
 
 
-![alt text](/Users/saikarthiknaladala/Documents/GitHub/Drowsiness_Detection/CNN_Image.png)
 
-![alt text](/Users/saikarthiknaladala/Documents/GitHub/Drowsiness_Detection/CNN_CM.png)
 
 For ResNet50:
 
-![alt text](/Users/saikarthiknaladala/Documents/GitHub/Drowsiness_Detection/ResNet50.png)
+
 
 For ResNet50+Regularization:
 
-![alt text](/Users/saikarthiknaladala/Documents/GitHub/Drowsiness_Detection/ResNet50Reg.png)
 
 For ResNet50+Fine_Tuning
 
-![alt text](/Users/saikarthiknaladala/Documents/GitHub/Drowsiness_Detection/ResNet50FineTuning.png)
-
-![alt text](/Users/saikarthiknaladala/Documents/GitHub/Drowsiness_Detection/ResNet50FineTuning_CM.png)
 
