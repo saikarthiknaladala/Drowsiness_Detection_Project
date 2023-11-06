@@ -46,17 +46,18 @@ Transfer learning means to apply the knowledge that some machine learning model 
 ![ResNet50](https://github.com/saikarthiknaladala/Drowsiness_Detection_Project/assets/144606889/ffeb8b4c-0ed3-4973-9fc5-bd2a4b9d7207)
 
 ## ResNet50 Transfer Learning + Regularization:
-Regularization was added because transfer learning model seems to be overfit. Overfit happens when the model learnt only "training data" by heart.To fix it we have following options:
+Regularization was added because transfer learning model seems to be overfit. Overfit happens when the model learnt only "training data" by heart.
+To fix it we have following options:
 
-                              1. Reduce network complexity
-                              
-                              2. Use drop out ( more dropout in last layers)
-                              
-                              3. Regularise
-                              
-                              4. Use batch norms
-                              
-                              5. Increase the tranning dataset size.
+1. Reduce network complexity
+
+2. use drop out (more dropout in last layers)
+
+3. Regularise
+
+4. Use batch norms
+
+5. Increase the training dataset size
                               
 For our case, I added a dropout layer with the rate 0.5 ( 50% of learning weights will be cut off randomly ! )
 
