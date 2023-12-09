@@ -49,7 +49,7 @@ We test the model on test data too. We used confusion matrix, for evaluating the
 ![CNN](https://github.com/saikarthiknaladala/Drowsiness_Detection_Project/assets/144606889/2eda205e-1d18-4798-8200-1be6ae3abe8e)
 
 ## ResNet50 Transfer Learning:
-Transfer learning means to apply the knowledge that some machine learning model holds (represented by its learned parameters) to a new (but in some way related) task.
+Transfer learning is a machine learning technique where a model developed for one task is reused as the starting point for a model on a second task. 
 ![ResNet50](https://github.com/saikarthiknaladala/Drowsiness_Detection_Project/assets/144606889/880732aa-077e-4126-a025-8a4a54a174f9)
 
 ## ResNet50 Transfer Learning + Regularization:
@@ -70,7 +70,7 @@ For our case, I added a dropout layer with the rate 0.5 ( 50% of learning weight
 ![ResNet50Reg](https://github.com/saikarthiknaladala/Drowsiness_Detection_Project/assets/144606889/a3256223-4460-4d90-823f-972334ba879e)
 
 ## ResNet50 Fine Tuning:
-Try Fine-tuning when your transfer learning model is still needed to improve.
+Fine-tuning is used when our transfer learning model is still needed to improve.
 
 Fine-tuning is the process of retraining a pre-trained model on a new dataset. 
 
