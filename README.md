@@ -50,6 +50,7 @@ We test the model on test data too. We used confusion matrix, for evaluating the
 
 ## ResNet50 Transfer Learning:
 Transfer learning is a machine learning technique where a model developed for one task is reused as the starting point for a model on a second task. 
+
 ![ResNet50](https://github.com/saikarthiknaladala/Drowsiness_Detection_Project/assets/144606889/880732aa-077e-4126-a025-8a4a54a174f9)
 
 ## ResNet50 Transfer Learning + Regularization:
